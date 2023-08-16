@@ -6,6 +6,9 @@ import "../src/SimpleContract.sol";
 
 import "openzeppelin-contracts/contracts/proxy/Clones.sol";
 
+// forge test --mp test/CloneTest.t.sol // Execute all the tests
+// forge test --mp test/CloneTest.t.sol -vvvv // Execute all the tests showing the calls
+
 contract CloneTest is Test {
     
     // FUZZ DEPLOYER
